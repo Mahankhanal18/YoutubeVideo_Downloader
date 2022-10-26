@@ -12,7 +12,7 @@ videoLink = input("Enter the youtube link: ")
 
 option = Options()
 option.add_argument('headless')
-prefs = {'download.default_directory' : '/home/ayman/Desktop'}
+prefs = {'download.default_directory' : '/mahankhanal/Desktop/'}
 option.add_experimental_option('prefs', prefs)
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()),options = option)
 
